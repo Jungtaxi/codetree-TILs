@@ -4,7 +4,7 @@ n, m = map(int, input().split())
 graph = [list(map(int, input().split())) for _ in range(n)]
 
 if m == 1 :
-    print(n**2)
+    print(2*n)
 else:
     answer = 0
     for i in range(n):
